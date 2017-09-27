@@ -1,7 +1,8 @@
 def smallestMultiple(Range):
     """Returns a smallest number that can be evenly
     divisible by the numbers within a range
-    For Example 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+    For Example 2520 is the smallest number that can
+    be divided by each of the numbers from 1 to 10 without any remainder.
     """
     number=Range
     while True:
@@ -16,7 +17,8 @@ def smallestMultiple(Range):
 def smallestMultiple(Range):
     """Returns a smallest number that can be evenly
     divisible by the numbers within a range
-    For Example 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+    For Example 2520 is the smallest number that can
+    be divided by each of the numbers from 1 to 10 without any remainder.
     """
     value={}
     value_copy=value.copy()
@@ -46,7 +48,8 @@ def smallestMultiple(Range):
 def smallestMultiple(Range):
     """Returns a smallest number that can be evenly
     divisible by the numbers within a range
-    For Example 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+    For Example 2520 is the smallest number that can be
+    divided by each of the numbers from 1 to 10 without any remainder.
     """
     i = 1
     for k in (range(1, Range+1)):
