@@ -44,6 +44,10 @@ def smallestMultiple(Range):
 #More More efficient solution to this problem
 
 def smallestMultiple(Range):
+    """Returns a smallest number that can be evenly
+    divisible by the numbers within a range
+    For Example 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+    """
     i = 1
     for k in (range(1, Range+1)):
         if i % k > 0:
