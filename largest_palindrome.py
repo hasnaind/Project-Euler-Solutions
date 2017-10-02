@@ -1,4 +1,4 @@
-def Largest_palindrome_product():
+def LargestPalindromeProduct():
     largestPalindrome=None
     for i in range(999,99,-1):
         for a in range(999,99,-1):
